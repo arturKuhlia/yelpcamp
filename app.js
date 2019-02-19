@@ -16,6 +16,10 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
 
+
+
+//mongodb+srv://arturshevtsov9:<Vrat2533!>@cluster0-zema8.mongodb.net/test?retryWrites=true
+
  //require moment
 app.locals.moment = require('moment');
 
