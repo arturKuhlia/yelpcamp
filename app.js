@@ -18,7 +18,7 @@ var commentRoutes    = require("./routes/comments"),
 
 
 
-//mongodb+srv://arturshevtsov9:<Vrat2533!>@cluster0-zema8.mongodb.net/test?retryWrites=true
+//mongodb+srv://admin:<PASSWORD>@cluster0-zema8.mongodb.net/test?retryWrites=true
 
  //require moment
 app.locals.moment = require('moment');
