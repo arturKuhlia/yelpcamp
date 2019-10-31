@@ -17,14 +17,11 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 
-
-//mongodb+srv://admin:<PASSWORD>@cluster0-zema8.mongodb.net/test?retryWrites=true
-
  //require moment
 app.locals.moment = require('moment');
 
 // connect to  database
-var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v10";
+var url = process.env.DATABASEURL || ;
 mongoose.connect(url);
 
 
